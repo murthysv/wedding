@@ -60,7 +60,7 @@ const Portfolio = ({ className, frontmatter }) => {
       // Render a completed state
       return <Completionist />;
     }
-    if (days != 0) {
+    if (days > 0) {
       return
       <div>
         <div className="joinButtonWrapper">
@@ -76,7 +76,7 @@ const Portfolio = ({ className, frontmatter }) => {
             </a>
           </div>
         </div>
-      <div>
+      </div>
     }	    
     if ((days === 0 && hours === 0 && minutes === 15 && seconds === 0) || (days === 0 && hours === 0 && minutes < 15)) {
       return <div>
