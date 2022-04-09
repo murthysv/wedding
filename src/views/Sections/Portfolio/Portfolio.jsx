@@ -118,7 +118,7 @@ const Portfolio = ({ className, frontmatter }) => {
               </a>
             </div>
           </div>
-                  </div>
+        </div>
       </div>
     }
     // Render a countdown
@@ -167,7 +167,7 @@ const Portfolio = ({ className, frontmatter }) => {
           </div> {/* countdownWrapper */}
           <div className="driveWrapper">
             <p className="checkOut">
-              Check out 
+              Check out the 
               <a 
                 href="https://drive.google.com"
                 className="spacedCountdownLinks"
@@ -189,6 +189,9 @@ const Portfolio = ({ className, frontmatter }) => {
         <Notifications options={{zIndex: 200, top: '50px'}} />
         <Row className="justify-content-center ceremony-header">
           <SectionHeader header={header} subheader={subheader}/>
+          <Button size="xl" variant="primary" className="text-uppercase main-button" onClick={() => openInNewTab('https://forms.gle/a2XU4G1dQ3eahLDH7')}>
+            <p className="buttonTitle"> Please RSVP! </p>
+          </Button>
           <CopyToClipboard text="#KaraMayo2022">
             <button
               onClick={copiedToClipboard}

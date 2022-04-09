@@ -30,7 +30,7 @@ const Top = ({ frontmatter }) => {
       <Popup
         modal
         trigger={
-          <Button size="xl" variant="primary" className="text-uppercase main-button" onClick={scrollToSection}>
+          <Button size="xl" variant="primary" className="text-uppercase main-button" onClick={() => openInNewTab('https://forms.gle/a2XU4G1dQ3eahLDH7')}>
             <p className="buttonTitle">RSVP</p>
           </Button>
         }
