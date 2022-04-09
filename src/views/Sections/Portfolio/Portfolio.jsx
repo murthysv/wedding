@@ -39,12 +39,12 @@ const Portfolio = ({ className, frontmatter }) => {
           <div className="joinButtonWrapper">
             <div>
               <a
-                href="https://forms.gle/p8MaA7j8VzBq9cQf8"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Button size="xl" variant="primary" className="text-uppercase main-button join-now">
-                  <p className="buttonTitle">RSVP</p>
+                  <p className="buttonTitle">Watch Now!</p>
                 </Button> <br/>
               </a>
             </div>
@@ -60,6 +60,24 @@ const Portfolio = ({ className, frontmatter }) => {
       // Render a completed state
       return <Completionist />;
     }
+    if (days != 0) {
+      return
+      <div>
+        <div className="joinButtonWrapper">
+          <div>
+            <a
+              href="https://forms.gle/p8MaA7j8VzBq9cQf8"
+              target="_blank"
+              rel="noreferrer"
+            >
+            <Button size="xl" variant="primary" className="text-uppercase main-button join-now">
+              <p className="buttonTitle">RSVP!</p>
+            </Button> <br/>
+            </a>
+          </div>
+        </div>
+      <div>
+    }	    
     if ((days === 0 && hours === 0 && minutes === 15 && seconds === 0) || (days === 0 && hours === 0 && minutes < 15)) {
       return <div>
         <div className="countdownAndMusic">
@@ -107,12 +125,12 @@ const Portfolio = ({ className, frontmatter }) => {
           <div className="joinButtonWrapper">
             <div>
               <a
-                href="https://forms.gle/p8MaA7j8VzBq9cQf8"
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Button size="xl" variant="primary" className="text-uppercase main-button join-now">
-                  <p className="buttonTitle">RSVP!</p>
+                  <p className="buttonTitle">Watch Now!</p>
                 </Button> <br/>
               </a>
             </div>
@@ -122,7 +140,7 @@ const Portfolio = ({ className, frontmatter }) => {
     }
     // Render a countdown
     return <span>
-        <div className="countdownAndTanuki">
+        <div className="countdownAndDrive">
           <div className="countdownIntro">
             The ceremony will begin in
           </div> {/* countdownIntro */}
@@ -164,7 +182,7 @@ const Portfolio = ({ className, frontmatter }) => {
               </div> {/* countWrapper */}
             </div> {/* countdownSection */}
           </div> {/* countdownWrapper */}
-          <div className="instaWrapper">
+          <div className="driveWrapper">
             <p className="checkOut">
               Check out 
               <a 
@@ -177,8 +195,8 @@ const Portfolio = ({ className, frontmatter }) => {
               </a>
               while you wait!
             </p>
-          </div> {/* instaWrapper */}
-        </div> {/* countdownAndTanuki */}
+          </div> {/* driveWrapper */}
+        </div> {/* countdownAndDrive */}
       </span>;
   };
 

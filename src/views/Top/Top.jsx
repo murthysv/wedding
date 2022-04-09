@@ -22,7 +22,7 @@ const Top = ({ frontmatter }) => {
       // Render a completed state
       return (
         <Button size="xl" variant="primary" className="text-uppercase main-button" onClick={scrollToSection}>
-          <p className="buttonTitle">RSVP</p>
+          <p className="buttonTitle">Watch Now!</p>
         </Button>
       );
     } 
@@ -31,7 +31,7 @@ const Top = ({ frontmatter }) => {
         modal
         trigger={
           <Button size="xl" variant="primary" className="text-uppercase main-button" onClick={scrollToSection}>
-            <p className="buttonTitle">Add to Calendar</p>
+            <p className="buttonTitle">RSVP</p>
           </Button>
         }
       >
