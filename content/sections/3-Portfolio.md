@@ -1,7 +1,7 @@
 ---
-anchor: "Ceremony"
-header: "Ceremony"
-subheader: "December 13, 2020 2pm EST"
+anchor: "RSVP"
+header: "RSVP"
+subheader: "June 9, 2022"
 portfolios: [
   {
     imageFileName: "portfolio/01-thumbnail.jpg",

@@ -1,7 +1,7 @@
 ---
-header: "Caitlin & Justin"
-subheader: "We're getting married!"
-imageFileName: "header-bg.png"
+header: "Hiranmayee & Shrikar"
+subheader: "Marry me?"
+imageFileName: "header-bg.jpeg"
 jumpToAnchor: "Ceremony"
-jumpToAnchorText: "Watch the Ceremony"
+jumpToAnchorText: "RSVP"
 ---

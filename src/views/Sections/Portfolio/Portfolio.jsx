@@ -39,62 +39,17 @@ const Portfolio = ({ className, frontmatter }) => {
           <div className="joinButtonWrapper">
             <div>
               <a
-                href="https://youtu.be/EXOL-3JyXMI"
+                href="https://forms.gle/p8MaA7j8VzBq9cQf8"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Button size="xl" variant="primary" className="text-uppercase main-button join-now">
-                  <p className="buttonTitle">Join Now!</p>
+                  <p className="buttonTitle">RSVP</p>
                 </Button> <br/>
               </a>
             </div>
           </div> {/* joinButtonWrapper */}
-          <div className="vendors">
-            <p>
-              Hosted at
-              <a
-                href="https://www.strathmore.org/mansion"
-                className="countdownLinks"
-                target="_blank"
-                rel="noreferrer"
-              >
-                the Mansion at Strathmore
-              </a>
-            </p>
-            <p>
-              Officiated by 
-              <a 
-                href="https://elleweds.wixsite.com/elleweds"
-                className="countdownLinks"
-                target="_blank"
-                rel="noreferrer">
-                  Erren Lee
-              </a>
-            </p>
-            <p>
-              Music provided by
-              <a
-                href="http://cellobosco.com/"
-                className="countdownLinks"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Carol Anne Bosco
-              </a>
-            </p>
-            <p>
-              Stay tuned for photos by
-              <a
-                href="https://anaisabelphotography.com/"
-                className="countdownLinks"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ana Isabel
-              </a>
-              !
-            </p>
-          </div> {/* vendors */}
+
       </span> // finishedCountdown
     )
   }
@@ -152,30 +107,17 @@ const Portfolio = ({ className, frontmatter }) => {
           <div className="joinButtonWrapper">
             <div>
               <a
-                href="https://youtu.be/EXOL-3JyXMI"
+                href="https://forms.gle/p8MaA7j8VzBq9cQf8"
                 target="_blank"
                 rel="noreferrer"
               >
                 <Button size="xl" variant="primary" className="text-uppercase main-button join-now">
-                  <p className="buttonTitle">Join Now!</p>
+                  <p className="buttonTitle">RSVP!</p>
                 </Button> <br/>
               </a>
             </div>
           </div>
-          <div className="vendors">
-            <p>
-              Pre-ceremony music provided by
-              <a
-                href="http://cellobosco.com/"
-                className="countdownLinks"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Carol Anne Bosco
-              </a>
-            </p>
-          </div>
-        </div>
+                  </div>
       </div>
     }
     // Render a countdown
@@ -226,12 +168,12 @@ const Portfolio = ({ className, frontmatter }) => {
             <p className="checkOut">
               Check out 
               <a 
-                href="https://www.instagram.com/princess_tanuki/"
+                href="https://drive.google.com"
                 className="spacedCountdownLinks"
                 target="_blank"
                 rel="noreferrer"
               >
-                  Tanuki&apos;s Instagram
+                Engagement Pictures
               </a>
               while you wait!
             </p>
@@ -246,7 +188,7 @@ const Portfolio = ({ className, frontmatter }) => {
         <Notifications options={{zIndex: 200, top: '50px'}} />
         <Row className="justify-content-center ceremony-header">
           <SectionHeader header={header} subheader={subheader}/>
-          <CopyToClipboard text="#CaitlinAndJustin2020">
+          <CopyToClipboard text="#KaraMayo2022">
             <button
               onClick={copiedToClipboard}
               id="copy-to-clipboard"
@@ -255,20 +197,20 @@ const Portfolio = ({ className, frontmatter }) => {
               size="xl"
               className="hashtag"
             >
-              #CaitlinAndJustin2020
+              #KaraMayo2022
             </button>
           </CopyToClipboard>
         </Row>
         <div className="countdownAndVideoDiv">
           <Row>
             <Countdown
-              date='2020-12-13T14:00:00-05:00'
+              date='2022-06-09T09:00:00+05:00'
               renderer={renderer}
             />
           </Row>
           <Row>
             <a
-              href="https://www.youtube.com/watch?v=EXOL-3JyXMI&feature=emb_err_woyt"
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               target="_blank"
               rel="noreferrer"
               className="youtubeLink"

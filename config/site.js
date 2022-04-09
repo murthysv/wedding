@@ -1,11 +1,11 @@
 module.exports = {
-  title: "Caitlin & Justin",
+  title: "Hiranmayee & Shrikara",
   keywords: [
-    "Caitlin Floyd",
-    "Justin Vazquez"
+    "Hiranmayee Buyyanapragada",
+    "Shrikar Murthy"
   ],
-  description: "Wedding website of Caitlin Floyd and Justin Vazquez",
-  author: "Caitlin Floyd",
+  description: "Wedding website of Hiranmayee Buyyanapragada and Shrikar Murthy",
+  author: "US",
   trackingId: "UA-119418003-5",
   defaultLang: "en",
 };

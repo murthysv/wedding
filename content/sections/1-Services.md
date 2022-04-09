@@ -1,6 +1,6 @@
 ---
-anchor: "Message"
-header: "Dear Loved Ones,"
+anchor: "Invitation"
+header: "<> invites you to things,"
 subheader: ""
 services: [
   {

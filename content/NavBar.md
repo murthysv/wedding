@@ -1,4 +1,4 @@
 ---
-brand: "Caitlin & Justin"
+brand: "Hiranmayee & Shrikar"
 menuText: "Menu "
 ---
