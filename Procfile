@@ -1,1 +1,1 @@
-web: gatsby serve --port $PORT
+worker: gatsby serve --port $PORT
