@@ -2,6 +2,9 @@
   "name": "gatsby-startbootstrap-agency",
   "description": "gatsby version of startbootstrap-agency with i18n support",
   "version": "0.1.0",
+    "engines": {
+    "node": "12.x"
+  },
   "author": "thundermiracle",
   "bugs": {
     "url": "https://github.com/thundermiracle/gatsby-startbootstrap-agency/issues"
