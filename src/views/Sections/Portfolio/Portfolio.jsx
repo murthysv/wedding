@@ -188,10 +188,12 @@ const Portfolio = ({ className, frontmatter }) => {
       <PageSection className={clsx("portfolio-section", className)} id={anchor}>
         <Notifications options={{zIndex: 200, top: '50px'}} />
         <Row className="justify-content-center ceremony-header">
-          <SectionHeader header={header} subheader={subheader}/>
           <Button size="xl" variant="primary" className="text-uppercase main-button" onClick={() => openInNewTab('https://forms.gle/a2XU4G1dQ3eahLDH7')}>
             <p className="buttonTitle"> Please RSVP! </p>
           </Button>
+        </Row>
+        <Row className="justify-content-center ceremony-header">
+          <SectionHeader header={header} subheader={subheader}/>
           <CopyToClipboard text="#KaraMayo2022">
             <button
               onClick={copiedToClipboard}

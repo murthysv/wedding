@@ -27,23 +27,9 @@ const Top = ({ frontmatter }) => {
       );
     } 
     return (
-      <Popup
-        modal
-        trigger={
           <Button size="xl" variant="primary" className="text-uppercase main-button" onClick={() => openInNewTab('https://forms.gle/a2XU4G1dQ3eahLDH7')}>
             <p className="buttonTitle">RSVP</p>
           </Button>
-        }
-      >
-        {close => (
-        <div className="addToCalModal">
-          <button type="button" className="close" onClick={close}>
-            &times;
-          </button>
-        </div> // addToCalModal
-        )
-      }
-      </Popup>
     )
   }
 
