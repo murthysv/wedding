@@ -60,24 +60,7 @@ const Portfolio = ({ className, frontmatter }) => {
       // Render a completed state
       return <Completionist />;
     }
-    if (days > 0) {
-      return
-      <div>
-        <div className="joinButtonWrapper">
-          <div>
-            <a
-              href="https://forms.gle/p8MaA7j8VzBq9cQf8"
-              target="_blank"
-              rel="noreferrer"
-            >
-            <Button size="xl" variant="primary" className="text-uppercase main-button join-now">
-              <p className="buttonTitle">RSVP!</p>
-            </Button> <br/>
-            </a>
-          </div>
-        </div>
-      </div>
-    }	    
+    	    
     if ((days === 0 && hours === 0 && minutes === 15 && seconds === 0) || (days === 0 && hours === 0 && minutes < 15)) {
       return <div>
         <div className="countdownAndMusic">
