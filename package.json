@@ -2,7 +2,7 @@
   "name": "gatsby-startbootstrap-agency",
   "description": "gatsby version of startbootstrap-agency with i18n support",
   "version": "0.1.0",
-    "engines": {
+  "engines": {
     "node": "12.x"
   },
   "author": "thundermiracle",

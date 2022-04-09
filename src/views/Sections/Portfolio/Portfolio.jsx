@@ -9,8 +9,8 @@ import Notifications, { notify } from "react-notify-toast";
 import { Row, Button } from "react-bootstrap";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
-import Youtube from "content/assets/images/portfolio/Youtube.png";
-import YoutubeHover from "content/assets/images/portfolio/YoutubeHover.png";
+import Youtube from "content/assets/images/portfolio/insert.jpeg";
+import YoutubeHover from "content/assets/images/portfolio/insert.jpeg";
 import "./Portfolio.scss";
 
 const Portfolio = ({ className, frontmatter }) => {
