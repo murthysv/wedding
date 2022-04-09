@@ -90,7 +90,7 @@
     "build": "gatsby build",
     "dev": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "serve": "gatsby serve",
+    "start": "gatsby serve --port $PORT",
     "eslint": "eslint ./src",
     "test": "cross-env NODE_ENV=test yarn run eslint",
     "testbuild": "yarn test && yarn build"
