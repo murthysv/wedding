@@ -17,19 +17,27 @@ const Top = ({ frontmatter }) => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const scrollToSection = useSmoothScrollTo(jumpToAnchor);
  
+  const handleClick = () => {
+    window.open("https://forms.gle/a2XU4G1dQ3eahLDH7");
+  };
+
   const renderer = ({ days }) => {
     if ( days <=0 ) {
       // Render a completed state
       return (
-        <Button size="xl" variant="primary" className="text-uppercase main-button" onClick={scrollToSection}>
-          <p className="buttonTitle">Watch Now!</p>
-        </Button>
+        <div>
+          <Button size="xl" variant="primary" className="text-uppercase main-button" onClick={scrollToSection}>
+            <p className="buttonTitle">Watch Now!</p>
+          </Button>
+        </div>
       );
     } 
     return (
-          <Button size="xl" variant="primary" className="text-uppercase main-button" onClick={() => openInNewTab('https://forms.gle/a2XU4G1dQ3eahLDH7')}>
+      <div>
+          <Button size="xl" variant="primary" className="text-uppercase main-button" onClick={handleClick}>
             <p className="buttonTitle">RSVP</p>
           </Button>
+      </div>
     )
   }
 

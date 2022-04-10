@@ -54,6 +54,9 @@ const Portfolio = ({ className, frontmatter }) => {
     )
   }
 
+  const handleClick = () => {
+    window.open("https://forms.gle/a2XU4G1dQ3eahLDH7");
+  };
       
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
@@ -188,12 +191,14 @@ const Portfolio = ({ className, frontmatter }) => {
       <PageSection className={clsx("portfolio-section", className)} id={anchor}>
         <Notifications options={{zIndex: 200, top: '50px'}} />
         <Row className="justify-content-center ceremony-header">
-          <Button size="xl" variant="primary" className="text-uppercase main-button" onClick={() => openInNewTab('https://forms.gle/a2XU4G1dQ3eahLDH7')}>
+          <SectionHeader header={header} subheader={subheader}/>
+        </Row>
+        <Row className="justify-content-center button-header">
+          <Button size="xl" variant="primary" className="rsvp-button" onClick={handleClick}>
             <p className="buttonTitle"> Please RSVP! </p>
           </Button>
-        </Row>
-        <Row className="justify-content-center ceremony-header">
-          <SectionHeader header={header} subheader={subheader}/>
+        </Row>  
+        <Row className="justify-content-center button-header">
           <CopyToClipboard text="#KaraMayo2022">
             <button
               onClick={copiedToClipboard}
